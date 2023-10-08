@@ -1,0 +1,30 @@
+// base code for all the site and variables
+@import "./base.scss";
+
+// shows the loading icon till whole site is loaded
+@import "./preloader.scss";
+
+// all code for header and mobile header
+@import "./header.scss";
+
+// all code for title page (the first one after header
+@import "./titlepage.scss";
+
+// all code for 'about us' page
+@import "./aboutus.scss";
+
+// all code for 'reviews' page
+@import "./reviews.scss";
+
+// all code for 'contacts' page
+@import "./contacts.scss";
+
+// all code for 'footer' page
+@import "./footer.scss";
+
+// 1 - 992
+// 2 - 824
+// 3 - 628
+// 4 - 530
+// 5 - 375
+// 6 - 320

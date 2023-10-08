@@ -1,0 +1,48 @@
+$mainFont: "Roboto";
+$mainFontSize: 18px;
+$mainlineHeight: 1.2;
+$mainFontWeight: 400;
+$mainColor: #000;
+$Background: rgb(238, 235, 228);
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+html,body {
+	font-family: $mainFont;
+	line-height: $mainlineHeight;
+	font-size: $mainFontSize;
+	color: $mainColor;
+	font-weight: $mainFontWeight;
+    scroll-behavior: smooth;
+    background-color: $Background;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: content-box;
+}
